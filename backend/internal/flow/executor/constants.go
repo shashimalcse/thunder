@@ -29,6 +29,7 @@ const (
 	ExecutorNameOIDCAuth                     = "OIDCAuthExecutor"
 	ExecutorNameGitHubAuth                   = "GithubOAuthExecutor"
 	ExecutorNameGoogleAuth                   = "GoogleOIDCAuthExecutor"
+	ExecutorNameEUDIVerify                   = "EUDIVerifyExecutor"
 	ExecutorNameIdentifying                  = "IdentifyingExecutor"
 	ExecutorNameAuthAssert                   = "AuthAssertExecutor"
 	ExecutorNameProvisioning                 = "ProvisioningExecutor"

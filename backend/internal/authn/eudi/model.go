@@ -58,6 +58,11 @@ var (
 	ErrInvalidResponse = errors.New("eudi: invalid authorization response")
 	// ErrPolicy indicates the verification policy itself was misconfigured.
 	ErrPolicy = errors.New("eudi: invalid verification policy")
+	// ErrUnknownState indicates no request state matched the given state value
+	// (it never existed, already completed, or expired).
+	ErrUnknownState = errors.New("eudi: unknown or expired request state")
+	// ErrStateMismatch indicates the response state did not match the request.
+	ErrStateMismatch = errors.New("eudi: response state mismatch")
 )
 
 // Policy is the config-driven PID verification policy. The claim sets use dotted

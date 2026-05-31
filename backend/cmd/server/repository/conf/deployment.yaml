@@ -57,6 +57,28 @@ passkey:
   allowed_origins:
     - "https://localhost:8090"
 
+# OpenID4VP verifier for EUDI Wallet PID presentation. Disabled until RP
+# onboarding provides the registered signing certificate and the trusted PID
+# issuer certificate (see docs/eudi-notes.md).
+openid4vp:
+  enabled: false
+  # client_id: "x509_hash:<base64url-sha256-of-registered-cert>"
+  # signing_key_id: "default-key"          # a crypto.keys[] entry whose cert is registered
+  # base_url: "https://localhost:8090"     # request_uri/response_uri are derived from this
+  # result_redirect_uri: "https://localhost:3000/eudi/result"
+  # credential_id: "pid-sd-jwt"
+  # vct: "urn:eudi:pid:de:1"
+  # ephemeral_key_id: "vp-enc"
+  # requested_claims: ["given_name", "family_name", "birthdate"]
+  # mandatory_claims: ["given_name", "family_name"]
+  # response_enc_values: ["A128GCM"]
+  # request_validity_seconds: 300
+  # state_ttl_seconds: 300
+  # leeway_seconds: 30
+  # trusted_issuers:
+  #   - issuer: "https://demo.pid-issuer.bundesdruckerei.de/c"
+  #     cert_file: "repository/resources/security/eudi-pid-issuer.cert"
+
 consent:
   enabled: true
   base_url: "http://localhost:9090/api/v1"

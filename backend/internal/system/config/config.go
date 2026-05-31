@@ -523,6 +523,32 @@ type PasskeyConfig struct {
 	AllowedOrigins []string `yaml:"allowed_origins" json:"allowed_origins"`
 }
 
+// OpenID4VPConfig holds the OpenID4VP verifier (EUDI PID presentation) configuration.
+type OpenID4VPConfig struct {
+	Enabled                bool              `yaml:"enabled" json:"enabled"`
+	ClientID               string            `yaml:"client_id" json:"client_id"`
+	SigningKeyID           string            `yaml:"signing_key_id" json:"signing_key_id"`
+	BaseURL                string            `yaml:"base_url" json:"base_url"`
+	ResultRedirectURI      string            `yaml:"result_redirect_uri" json:"result_redirect_uri"`
+	RequestAudience        string            `yaml:"request_audience" json:"request_audience"`
+	CredentialID           string            `yaml:"credential_id" json:"credential_id"`
+	VCT                    string            `yaml:"vct" json:"vct"`
+	EphemeralKeyID         string            `yaml:"ephemeral_key_id" json:"ephemeral_key_id"`
+	RequestedClaims        []string          `yaml:"requested_claims" json:"requested_claims"`
+	MandatoryClaims        []string          `yaml:"mandatory_claims" json:"mandatory_claims"`
+	ResponseEncValues      []string          `yaml:"response_enc_values" json:"response_enc_values"`
+	RequestValiditySeconds int               `yaml:"request_validity_seconds" json:"request_validity_seconds"`
+	StateTTLSeconds        int               `yaml:"state_ttl_seconds" json:"state_ttl_seconds"`
+	LeewaySeconds          int               `yaml:"leeway_seconds" json:"leeway_seconds"`
+	TrustedIssuers         []PIDIssuerConfig `yaml:"trusted_issuers" json:"trusted_issuers"`
+}
+
+// PIDIssuerConfig pins a trusted PID issuer's signing certificate.
+type PIDIssuerConfig struct {
+	Issuer   string `yaml:"issuer" json:"issuer"`
+	CertFile string `yaml:"cert_file" json:"cert_file"`
+}
+
 // AuthnProviderConfig holds the authentication provider configuration details.
 type AuthnProviderConfig struct {
 	Type string     `yaml:"type" json:"type"`
@@ -705,6 +731,7 @@ type Config struct {
 	EntityType           EntityTypeConfig       `yaml:"user_type" json:"user_type"`
 	Observability        ObservabilityConfig    `yaml:"observability" json:"observability"`
 	Passkey              PasskeyConfig          `yaml:"passkey" json:"passkey"`
+	OpenID4VP            OpenID4VPConfig        `yaml:"openid4vp" json:"openid4vp"`
 	AuthnProvider        AuthnProviderConfig    `yaml:"authn_provider" json:"authn_provider"`
 	UserProvider         UserProviderConfig     `yaml:"user_provider" json:"user_provider"`
 	EntityProvider       EntityProviderConfig   `yaml:"entity_provider" json:"entity_provider"`

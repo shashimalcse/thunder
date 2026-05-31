@@ -22,6 +22,7 @@ import (
 	"github.com/thunder-id/thunderid/internal/attributecache"
 	"github.com/thunder-id/thunderid/internal/authn/assert"
 	"github.com/thunder-id/thunderid/internal/authn/consent"
+	"github.com/thunder-id/thunderid/internal/authn/eudi"
 	"github.com/thunder-id/thunderid/internal/authn/github"
 	"github.com/thunder-id/thunderid/internal/authn/google"
 	"github.com/thunder-id/thunderid/internal/authn/magiclink"
@@ -72,6 +73,7 @@ func Initialize(
 	oidcSvc oidc.OIDCAuthnServiceInterface,
 	githubSvc github.GithubOAuthAuthnServiceInterface,
 	googleSvc google.GoogleOIDCAuthnServiceInterface,
+	eudiVerifierSvc *eudi.Service,
 ) ExecutorRegistryInterface {
 	reg := newExecutorRegistry()
 	reg.RegisterExecutor(ExecutorNameBasicAuth, newBasicAuthExecutor(
@@ -92,6 +94,14 @@ func Initialize(
 		flowFactory, idpService, entityTypeService, githubSvc, authnProvider))
 	reg.RegisterExecutor(ExecutorNameGoogleAuth, newGoogleOIDCAuthExecutor(
 		flowFactory, idpService, entityTypeService, googleSvc, authnProvider))
+
+	// Register the EUDI Wallet PID verifier. The service is nil when OpenID4VP
+	// is disabled; pass a nil interface so the executor fails cleanly if reached.
+	var eudiSvc eudiVerifierService
+	if eudiVerifierSvc != nil {
+		eudiSvc = eudiVerifierSvc
+	}
+	reg.RegisterExecutor(ExecutorNameEUDIVerify, newEUDIVerifyExecutor(flowFactory, eudiSvc))
 
 	reg.RegisterExecutor(ExecutorNameProvisioning, newProvisioningExecutor(flowFactory,
 		groupService, roleService, roleAssignmentService, entityProvider, entityTypeService))
