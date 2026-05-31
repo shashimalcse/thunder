@@ -23,6 +23,7 @@ import (
 	"crypto"
 	"encoding/base64"
 	"encoding/json"
+	"errors"
 	"fmt"
 
 	"github.com/thunder-id/thunderid/internal/system/config"
@@ -177,6 +178,45 @@ func (js *jweService) Decrypt(ctx context.Context, jweToken string) ([]byte, *se
 		return nil, &ErrorJWEDecryptionFailed
 	}
 
+	return payload, nil
+}
+
+// DecryptWithKey decrypts a JWE compact serialization using an explicitly
+// supplied recipient private key instead of the server's configured key. It
+// supports ephemeral per-request keys, as required by OpenID4VP encrypted
+// responses (response_mode=direct_post.jwt). Only the key management algorithms
+// accepted by buildDecryptParams are supported.
+func DecryptWithKey(jweToken string, privateKey crypto.PrivateKey) ([]byte, error) {
+	header, headerBase64, encryptedKey, iv, ciphertext, tag, err := DecodeJWE(jweToken)
+	if err != nil {
+		return nil, fmt.Errorf("failed to decode JWE: %w", err)
+	}
+
+	algStr, ok := header["alg"].(string)
+	if !ok {
+		return nil, errors.New("JWE header missing alg")
+	}
+	encStr, ok := header["enc"].(string)
+	if !ok {
+		return nil, errors.New("JWE header missing enc")
+	}
+	alg := KeyEncAlgorithm(algStr)
+	enc := ContentEncAlgorithm(encStr)
+
+	params, err := buildDecryptParams(alg, enc, header)
+	if err != nil {
+		return nil, err
+	}
+
+	cek, err := cryptolib.Decrypt(privateKey, params, encryptedKey)
+	if err != nil {
+		return nil, fmt.Errorf("failed to decrypt CEK: %w", err)
+	}
+
+	payload, err := decryptContent(ciphertext, iv, tag, cek, enc, []byte(headerBase64))
+	if err != nil {
+		return nil, fmt.Errorf("failed to decrypt content: %w", err)
+	}
 	return payload, nil
 }
 
