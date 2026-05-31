@@ -288,6 +288,111 @@
   {
     "resourceType": "WIDGET",
     "category": "FLOW",
+    "type": "EUDI_WALLET",
+    "display": {
+      "label": "Continue with EUDI Wallet",
+      "description": "Login experience with the EUDI Wallet (PID presentation)",
+      "image": "assets/images/icons/eudi-generic.svg",
+      "showOnResourcePanel": true
+    },
+    "config": {
+      "data": {
+        "__generationMeta__": {
+          "defaultPropertySelectorId": "{{EUDI_EXECUTION_STEP_ID}}",
+          "replacers": [
+            {
+              "key": "EUDI_EXECUTION_STEP_ID",
+              "type": "ID"
+            },
+            {
+              "key": "AUTH_ASSERT_EXECUTOR_ID",
+              "type": "ID"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "__generationMeta__": {
+              "strategy": "MERGE_WITH_DROP_POINT"
+            },
+            "type": "VIEW",
+            "data": {
+              "components": [
+                {
+                  "id": "{{ID}}",
+                  "category": "ACTION",
+                  "type": "BLOCK",
+                  "components": [
+                    {
+                      "id": "{{ID}}",
+                      "category": "ACTION",
+                      "type": "ACTION",
+                      "variant": "OUTLINED",
+                      "eventType": "TRIGGER",
+                      "label": "Continue with EUDI Wallet",
+                      "image": "assets/images/icons/eudi.svg",
+                      "action": {
+                        "type": "NEXT",
+                        "onSuccess": "{{EUDI_EXECUTION_STEP_ID}}"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "{{EUDI_EXECUTION_STEP_ID}}",
+            "type": "TASK_EXECUTION",
+            "size": {
+              "width": 200,
+              "height": 113
+            },
+            "position": {
+              "x": 820,
+              "y": 350
+            },
+            "data": {
+              "action": {
+                "type": "EXECUTOR",
+                "executor": {
+                  "name": "EUDIVerifyExecutor"
+                },
+                "onSuccess": "{{AUTH_ASSERT_EXECUTOR_ID}}",
+                "onFailure": "",
+                "onIncomplete": ""
+              }
+            }
+          },
+          {
+            "id": "{{AUTH_ASSERT_EXECUTOR_ID}}",
+            "type": "TASK_EXECUTION",
+            "size": {
+              "width": 244,
+              "height": 113
+            },
+            "position": {
+              "x": 1234,
+              "y": 230
+            },
+            "data": {
+              "action": {
+                "type": "EXECUTOR",
+                "executor": {
+                  "name": "AuthAssertExecutor"
+                },
+                "onSuccess": "END",
+                "onFailure": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "resourceType": "WIDGET",
+    "category": "FLOW",
     "type": "SMS_OTP",
     "display": {
       "label": "Continue with SMS OTP",

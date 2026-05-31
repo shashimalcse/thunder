@@ -101,9 +101,28 @@ The `eudi_wait` PROMPT surfaces the executor's QR `additionalData` (`eudiClientI
 the applications API) and enable `openid4vp` (with onboarding certs) in `deployment.yaml`.
 
 **Not yet wired:** the flow goes `eudi_verify → auth_assert` directly. JIT provisioning of the
-verified person (inserting `ProvisioningExecutor`, possibly with an attribute prompt) and the
-console flow-builder "EUDI Wallet" widget are follow-ups; both need a running server / frontend
-build to validate.
+verified person (inserting `ProvisioningExecutor`, possibly with an attribute prompt) is a
+follow-up that needs a running server to validate.
+
+### Console flow-builder widget (added)
+
+A draggable **"Continue with EUDI Wallet"** widget is registered in the console login-flow
+builder. Touch points (all in `frontend/apps/console/src/features`):
+
+- `flows/models/widget.ts` — `WidgetTypes.EUDIWallet = 'EUDI_WALLET'`
+- `flows/models/steps.ts` — `ExecutionTypes.EUDIVerify = 'EUDIVerifyExecutor'`
+- `flows/constants/VisualFlowConstants.ts` — EUDI widget added to the two drop-allowed arrays
+- `login-flow/data/widgets.json` — the widget definition (button VIEW → `EUDIVerifyExecutor` →
+  `AuthAssertExecutor`). Unlike Google/GitHub it carries **no `idpId`**, so it is deliberately
+  excluded from the IdP-linkage files (`execution-properties/constants.ts`, `validation-rules.ts`,
+  `computeExecutorConnections.ts`).
+- `public/assets/images/icons/eudi.svg`, `eudi-generic.svg` — the icon.
+
+`ExecutionFactory` has an icon+label fallback, so no dedicated execution component is needed.
+Verified locally with `tsc --noEmit` and `eslint` (both clean); run `pnpm build` for full
+confidence. The dropped widget's EUDI node has `onIncomplete: ""` — for the polling wait view,
+connect its incomplete output to a view in the builder, or use the `default-eudi-flow` bootstrap
+graph which already wires the poll loop.
 
 ---
 
