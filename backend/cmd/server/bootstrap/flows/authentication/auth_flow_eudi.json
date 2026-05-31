@@ -1,0 +1,124 @@
+{
+    "name": "Default EUDI Wallet Authentication Flow",
+    "handle": "default-eudi-flow",
+    "flowType": "AUTHENTICATION",
+    "nodes": [
+        {
+            "id": "start",
+            "type": "START",
+            "onSuccess": "choose_auth"
+        },
+        {
+            "id": "choose_auth",
+            "type": "PROMPT",
+            "meta": {
+                "components": [
+                    {
+                        "alt": "logo",
+                        "category": "DISPLAY",
+                        "height": "60",
+                        "id": "image",
+                        "resourceType": "ELEMENT",
+                        "src": "{{ meta(application.logoUrl) }}",
+                        "type": "IMAGE",
+                        "width": ""
+                    },
+                    {
+                        "align": "center",
+                        "type": "TEXT",
+                        "id": "text_title",
+                        "label": "Sign in",
+                        "variant": "HEADING_1"
+                    },
+                    {
+                        "type": "BLOCK",
+                        "id": "block_options",
+                        "components": [
+                            {
+                                "type": "ACTION",
+                                "id": "action_eudi",
+                                "label": "Sign in with EUDI Wallet",
+                                "variant": "OUTLINED",
+                                "eventType": "SUBMIT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "prompts": [
+                {
+                    "inputs": [],
+                    "action": {
+                        "ref": "action_eudi",
+                        "nextNode": "eudi_verify"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "eudi_verify",
+            "type": "TASK_EXECUTION",
+            "executor": {
+                "name": "EUDIVerifyExecutor"
+            },
+            "onSuccess": "auth_assert",
+            "onIncomplete": "eudi_wait"
+        },
+        {
+            "id": "eudi_wait",
+            "type": "PROMPT",
+            "meta": {
+                "components": [
+                    {
+                        "align": "center",
+                        "type": "TEXT",
+                        "id": "text_wait_title",
+                        "label": "Scan with your EUDI Wallet",
+                        "variant": "HEADING_1"
+                    },
+                    {
+                        "align": "center",
+                        "type": "TEXT",
+                        "id": "text_wait_help",
+                        "label": "Open your EUDI Wallet and present your PID. This page updates automatically once you approve the request.",
+                        "variant": "BODY_1"
+                    },
+                    {
+                        "type": "BLOCK",
+                        "id": "block_wait",
+                        "components": [
+                            {
+                                "type": "ACTION",
+                                "id": "action_poll",
+                                "label": "Refresh status",
+                                "variant": "PRIMARY",
+                                "eventType": "SUBMIT"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "prompts": [
+                {
+                    "inputs": [],
+                    "action": {
+                        "ref": "action_poll",
+                        "nextNode": "eudi_verify"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "auth_assert",
+            "type": "TASK_EXECUTION",
+            "executor": {
+                "name": "AuthAssertExecutor"
+            },
+            "onSuccess": "end"
+        },
+        {
+            "id": "end",
+            "type": "END"
+        }
+    ]
+}

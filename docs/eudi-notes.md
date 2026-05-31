@@ -80,6 +80,31 @@ Consequence for the EUDI graph node:
 
 A minimal auth flow graph: `START → EUDIVerifyExecutor (self-loop poll action) → ProvisioningExecutor → AuthAssertExecutor → END`.
 
+### Bootstrap flow graph (provided)
+
+`backend/cmd/server/bootstrap/flows/authentication/auth_flow_eudi.json` (handle
+`default-eudi-flow`) implements this. The setup script (`bootstrap/01-default-resources.sh`)
+auto-registers every `*.json` in that directory, so it is created on `./setup.sh`. Shape:
+
+```
+start → choose_auth (PROMPT: "Sign in with EUDI Wallet" button)
+      → eudi_verify (EUDIVerifyExecutor)
+            onIncomplete → eudi_wait (PROMPT: QR/instructions + "Refresh status" → loops to eudi_verify)
+            onSuccess    → auth_assert → end
+```
+
+The `eudi_wait` PROMPT surfaces the executor's QR `additionalData` (`eudiClientId`,
+`eudiRequestUri`, `eudiWalletUri`); its action loops back to `eudi_verify`, which polls
+`Service.Result`. The frontend should re-submit that action on an interval (≈2.5 s).
+
+**To use it:** set the application's authentication flow to `default-eudi-flow` (console or
+the applications API) and enable `openid4vp` (with onboarding certs) in `deployment.yaml`.
+
+**Not yet wired:** the flow goes `eudi_verify → auth_assert` directly. JIT provisioning of the
+verified person (inserting `ProvisioningExecutor`, possibly with an attribute prompt) and the
+console flow-builder "EUDI Wallet" widget are follow-ups; both need a running server / frontend
+build to validate.
+
 ---
 
 ## Configuration reference (`openid4vp` in deployment.yaml)
