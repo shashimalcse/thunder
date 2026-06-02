@@ -51,34 +51,44 @@ jwt:
 cors:
   allowed_origins:
     - "https://localhost:3000"
+    - "https://localhost:5190"
+    - "https://localhost:5191"
     # - regex: '^https://[a-z0-9-]+\.staging\.example\.com(:[0-9]+)?$'
 
 passkey:
   allowed_origins:
     - "https://localhost:8090"
 
-# OpenID4VP verifier for EUDI Wallet PID presentation. Disabled until RP
-# onboarding provides the registered signing certificate and the trusted PID
-# issuer certificate (see docs/eudi-notes.md).
+# OpenID4VP verifier for EUDI Wallet PID presentation.
+# NOTE: the values below are DEV placeholders so the verifier initializes and the
+# request/QR flow can be exercised. For a real wallet round-trip you must replace
+# them with onboarding values (see docs/eudi-notes.md):
+#   - client_id: "x509_hash:<base64url-sha256 of your registered cert>"
+#   - signing_key_id: a crypto.keys[] entry whose cert is registered with the RP
+#   - trusted_issuers: the real PID issuer cert + the issuer URL the PID's `iss` carries
 openid4vp:
-  enabled: false
-  # client_id: "x509_hash:<base64url-sha256-of-registered-cert>"
-  # signing_key_id: "default-key"          # a crypto.keys[] entry whose cert is registered
-  # base_url: "https://localhost:8090"     # request_uri/response_uri are derived from this
-  # result_redirect_uri: "https://localhost:3000/eudi/result"
-  # credential_id: "pid-sd-jwt"
-  # vct: "urn:eudi:pid:de:1"
-  # ephemeral_key_id: "vp-enc"
-  # requested_claims: ["given_name", "family_name", "birthdate"]
-  # mandatory_claims: ["given_name", "family_name"]
-  # response_enc_values: ["A128GCM"]
-  # request_validity_seconds: 300
-  # state_ttl_seconds: 300
-  # leeway_seconds: 30
-  # trusted_issuers:
-  #   - issuer: "https://demo.pid-issuer.bundesdruckerei.de/c"
-  #     cert_file: "repository/resources/security/eudi-pid-issuer.cert"
+  enabled: true
+  client_id: "x509_hash:dev-placeholder"
+  signing_key_id: "default-key"
+  base_url: "https://localhost:8090"
+  credential_id: "pid-sd-jwt"
+  vct: "urn:eudi:pid:de:1"
+  ephemeral_key_id: "vp-enc"
+  requested_claims: ["given_name", "family_name", "birthdate"]
+  mandatory_claims: ["given_name", "family_name"]
+  response_enc_values: ["A128GCM"]
+  request_validity_seconds: 300
+  state_ttl_seconds: 300
+  leeway_seconds: 30
+  trusted_issuers:
+    # DEV placeholder: reuse the server signing cert so the trust store loads.
+    # Replace with the real Bundesdruckerei PID issuer cert + issuer URL for live use.
+    - issuer: "https://demo.pid-issuer.bundesdruckerei.de/c"
+      cert_file: "repository/resources/security/signing.cert"
+
+gate_client:
+  port: 5190
 
 consent:
-  enabled: true
+  enabled: false
   base_url: "http://localhost:9090/api/v1"

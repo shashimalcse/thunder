@@ -87,6 +87,7 @@ yarn-error.log*
 # NX artifacts
 .nx/cache
 .nx/workspace-data
+frontend/.nx/cache
 frontend/packages/**/.nx/cache
 frontend/packages/**/.nx/workspace-data
 
@@ -131,4 +132,6 @@ docs/static/api/next/postman/
 
 # Claude Code
 .claude/
+
+.pnpm-store/
 

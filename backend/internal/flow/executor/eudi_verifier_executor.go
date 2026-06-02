@@ -25,6 +25,7 @@ import (
 	"github.com/thunder-id/thunderid/internal/authn/eudi"
 	"github.com/thunder-id/thunderid/internal/flow/common"
 	"github.com/thunder-id/thunderid/internal/flow/core"
+	"github.com/thunder-id/thunderid/internal/openid4vp"
 	"github.com/thunder-id/thunderid/internal/system/log"
 )
 
@@ -42,10 +43,10 @@ const (
 )
 
 // eudiVerifierService is the subset of the OpenID4VP verifier service the
-// executor depends on. *eudi.Service satisfies it.
+// executor depends on. *openid4vp.Service satisfies it.
 type eudiVerifierService interface {
-	Initiate(ctx context.Context) (*eudi.Initiation, error)
-	Result(ctx context.Context, state string) (*eudi.RequestState, error)
+	Initiate(ctx context.Context) (*openid4vp.Initiation, error)
+	Result(ctx context.Context, state string) (*openid4vp.RequestState, error)
 }
 
 // eudiVerifyExecutor drives an EUDI Wallet PID presentation as a flow step: it
@@ -108,11 +109,16 @@ func (e *eudiVerifyExecutor) initiate(
 	}
 
 	execResp.RuntimeData[eudiRuntimeKeyState] = init.State
-	execResp.AdditionalData[eudiDataClientID] = init.ClientID
-	execResp.AdditionalData[eudiDataRequestURI] = init.RequestURI
-	execResp.AdditionalData[eudiDataWalletURI] = eudi.WalletAuthorizationURI(init.ClientID, init.RequestURI)
+	setQRData(execResp, init.ClientID, init.RequestURI)
 	execResp.Status = common.ExecUserInputRequired
 	return execResp, nil
+}
+
+// setQRData populates the QR / deep-link payload for the client.
+func setQRData(execResp *common.ExecutorResponse, clientID, requestURI string) {
+	execResp.AdditionalData[eudiDataClientID] = clientID
+	execResp.AdditionalData[eudiDataRequestURI] = requestURI
+	execResp.AdditionalData[eudiDataWalletURI] = openid4vp.WalletAuthorizationURI(clientID, requestURI)
 }
 
 // poll checks the request result, completing, failing, or continuing to wait.
@@ -128,38 +134,40 @@ func (e *eudiVerifyExecutor) poll(
 	}
 
 	switch rs.Status {
-	case eudi.StatusCompleted:
+	case openid4vp.StatusCompleted:
 		e.setAuthenticatedUser(execResp, rs.Result)
 		execResp.Status = common.ExecComplete
-	case eudi.StatusFailed:
+	case openid4vp.StatusFailed:
 		logger.Debug("EUDI presentation verification failed", log.String("reason", rs.FailureReason))
 		execResp.Status = common.ExecFailure
 		execResp.FailureReason = rs.FailureReason
 	default:
-		// Still pending: keep the state and keep the client polling.
+		// Still pending: keep the state, re-emit the QR data so the wait view
+		// keeps rendering it across polls, and keep the client polling.
 		execResp.RuntimeData[eudiRuntimeKeyState] = state
+		setQRData(execResp, rs.ClientID, rs.RequestURI)
 		execResp.Status = common.ExecUserInputRequired
 	}
 	return execResp, nil
 }
 
-// setAuthenticatedUser maps the verified PID into the authenticated user.
-func (e *eudiVerifyExecutor) setAuthenticatedUser(execResp *common.ExecutorResponse, pid *eudi.VerifiedPID) {
-	if pid == nil {
+// setAuthenticatedUser maps the verified presentation into the authenticated user.
+func (e *eudiVerifyExecutor) setAuthenticatedUser(execResp *common.ExecutorResponse, vp *openid4vp.VerifiedPresentation) {
+	if vp == nil {
 		execResp.Status = common.ExecFailure
 		execResp.FailureReason = failureReasonEUDIExpired
 		return
 	}
-	attributes := make(map[string]interface{}, len(pid.Claims)+2)
-	for k, v := range pid.Claims {
+	attributes := make(map[string]interface{}, len(vp.Claims)+2)
+	for k, v := range vp.Claims {
 		attributes[k] = v
 	}
-	attributes["eudi_issuer"] = pid.Issuer
-	attributes["eudi_vct"] = pid.VCT
+	attributes["eudi_issuer"] = vp.Issuer
+	attributes["eudi_vct"] = vp.VCT
 
 	execResp.AuthenticatedUser = authncm.AuthenticatedUser{
 		IsAuthenticated: true,
-		UserID:          pid.Subject,
+		UserID:          eudi.DeriveSubject(vp),
 		Attributes:      attributes,
 	}
 }

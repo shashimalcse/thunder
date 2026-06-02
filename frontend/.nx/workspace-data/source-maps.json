@@ -1,0 +1,5128 @@
+{
+  "apps/thunder-console": {
+    "root": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:thunder": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:console": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:app": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:wso2": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.codegen:emojis": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.codegen:emojis.executor": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.codegen:emojis.options": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.codegen:emojis.metadata": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.codegen:emojis.options.script": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.codegen:emojis.metadata.scriptContent": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.codegen:emojis.metadata.runCommand": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.executor": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options.script": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.scriptContent": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.runCommand": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.executor": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options.script": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.scriptContent": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.runCommand": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.executor": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options.script": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.scriptContent": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.runCommand": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:coverage": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:coverage.executor": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:coverage.options": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:coverage.metadata": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:coverage.options.script": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:coverage.metadata.scriptContent": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:coverage.metadata.runCommand": [
+      "apps/thunder-console/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/thunder-gate": {
+    "root": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:thunder": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:gate": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:app": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:wso2": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.9": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.executor": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options.script": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.scriptContent": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.runCommand": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.executor": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options.script": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.scriptContent": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.runCommand": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.executor": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options.script": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.scriptContent": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.runCommand": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.executor": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options.script": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.scriptContent": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.runCommand": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:coverage": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:coverage.executor": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:coverage.options": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:coverage.metadata": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:coverage.options.script": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:coverage.metadata.scriptContent": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:coverage.metadata.runCommand": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.executor": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options.script": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.scriptContent": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.runCommand": [
+      "apps/thunder-gate/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/thunder-create": {
+    "root": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:thunder": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:cli": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:scaffolding": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:generator": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:template": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:create": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:wso2": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.executor": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options.script": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.scriptContent": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.runCommand": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.executor": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options.script": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.scriptContent": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.runCommand": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.executor": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options.script": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.scriptContent": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.runCommand": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.executor": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options.script": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.scriptContent": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.runCommand": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options.script": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.scriptContent": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.runCommand": [
+      "packages/thunder-create/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/thunder-eslint-plugin": {
+    "root": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:thunder": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:eslint": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:eslintplugin": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:eslint-plugin": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:plugin": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:shareable": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:wso2": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.executor": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options.script": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.scriptContent": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.runCommand": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.executor": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options.script": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.scriptContent": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.runCommand": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.executor": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options.script": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.scriptContent": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.runCommand": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.executor": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options.script": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.scriptContent": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.runCommand": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options.script": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.scriptContent": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.runCommand": [
+      "packages/thunder-eslint-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/thunder-i18n": {
+    "root": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:i18n": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:internationalization": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react-i18next": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:thunder": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:translations": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.executor": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options.script": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.scriptContent": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.runCommand": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options.script": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.scriptContent": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.runCommand": [
+      "packages/thunder-i18n/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/thunder-logger": {
+    "root": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:thunder": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:logger": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:winston": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:shareable": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:wso2": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.executor": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options.script": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.scriptContent": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.runCommand": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.executor": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options.script": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.scriptContent": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.runCommand": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.executor": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options.script": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.scriptContent": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.runCommand": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.executor": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options.script": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.scriptContent": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.runCommand": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options.script": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.scriptContent": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.runCommand": [
+      "packages/thunder-logger/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/thunder-prettier-config": {
+    "root": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:thunder": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:prettier": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:configuration": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:shareable": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:wso2": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.executor": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options.script": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.scriptContent": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.runCommand": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.executor": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options.script": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.scriptContent": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.runCommand": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.executor": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options.script": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.scriptContent": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.runCommand": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.executor": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options.script": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.scriptContent": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.runCommand": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options.script": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.scriptContent": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.runCommand": [
+      "packages/thunder-prettier-config/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/thunder-shared-contexts": {
+    "root": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:thunder": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:contexts": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:shareable": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:wso2": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.executor": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options.script": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.scriptContent": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.runCommand": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.executor": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options.script": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.scriptContent": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.runCommand": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.executor": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options.script": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.scriptContent": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.runCommand": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.executor": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options.script": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.scriptContent": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.runCommand": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options.script": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.scriptContent": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.runCommand": [
+      "packages/thunder-shared-contexts/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/thunder-shared-design": {
+    "root": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:thunder": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:design": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:shareable": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:wso2": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.executor": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options.script": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.scriptContent": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.runCommand": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.executor": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options.script": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.scriptContent": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.runCommand": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.executor": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options.script": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.scriptContent": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.runCommand": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.executor": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options.script": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.scriptContent": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.runCommand": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options.script": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.scriptContent": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.runCommand": [
+      "packages/thunder-shared-design/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/thunder-shared-hooks": {
+    "root": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:thunder": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:hooks": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:shareable": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:wso2": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.executor": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options.script": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.scriptContent": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.runCommand": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.executor": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options.script": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.scriptContent": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.runCommand": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.executor": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options.script": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.scriptContent": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.runCommand": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.executor": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options.script": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.scriptContent": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.runCommand": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options.script": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.scriptContent": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.runCommand": [
+      "packages/thunder-shared-hooks/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/thunder-test-utils": {
+    "root": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:thunder": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:testing": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:vitest": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:react": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:testing-library": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:wso2": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.executor": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options.script": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.scriptContent": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.runCommand": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.executor": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options.script": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.scriptContent": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.runCommand": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.executor": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options.script": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.scriptContent": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.runCommand": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.executor": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options.script": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.scriptContent": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.runCommand": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options.script": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.scriptContent": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.runCommand": [
+      "packages/thunder-test-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/thunder-types": {
+    "root": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:thunder": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:types": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:utility": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:typescript": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:wso2": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.executor": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options.script": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.scriptContent": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.runCommand": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.executor": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options.script": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.scriptContent": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.runCommand": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.executor": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options.script": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.scriptContent": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.runCommand": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.executor": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options.script": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.scriptContent": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.runCommand": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options.script": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.scriptContent": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.runCommand": [
+      "packages/thunder-types/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/thunder-utils": {
+    "root": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:thunder": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:utils": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:utility": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:typescript": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:wso2": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.executor": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options.script": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.scriptContent": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.runCommand": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.executor": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.options.script": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.scriptContent": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:dist.metadata.runCommand": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.executor": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.options.script": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.scriptContent": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean:node_modules.metadata.runCommand": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.executor": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options.script": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.scriptContent": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.runCommand": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.executor": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.options.script": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.scriptContent": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.typecheck.metadata.runCommand": [
+      "packages/thunder-utils/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}

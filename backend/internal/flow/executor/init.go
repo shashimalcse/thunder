@@ -22,7 +22,6 @@ import (
 	"github.com/thunder-id/thunderid/internal/attributecache"
 	"github.com/thunder-id/thunderid/internal/authn/assert"
 	"github.com/thunder-id/thunderid/internal/authn/consent"
-	"github.com/thunder-id/thunderid/internal/authn/eudi"
 	"github.com/thunder-id/thunderid/internal/authn/github"
 	"github.com/thunder-id/thunderid/internal/authn/google"
 	"github.com/thunder-id/thunderid/internal/authn/magiclink"
@@ -38,6 +37,7 @@ import (
 	"github.com/thunder-id/thunderid/internal/group"
 	"github.com/thunder-id/thunderid/internal/idp"
 	"github.com/thunder-id/thunderid/internal/notification"
+	"github.com/thunder-id/thunderid/internal/openid4vp"
 	"github.com/thunder-id/thunderid/internal/ou"
 	"github.com/thunder-id/thunderid/internal/role"
 	"github.com/thunder-id/thunderid/internal/system/email"
@@ -73,7 +73,7 @@ func Initialize(
 	oidcSvc oidc.OIDCAuthnServiceInterface,
 	githubSvc github.GithubOAuthAuthnServiceInterface,
 	googleSvc google.GoogleOIDCAuthnServiceInterface,
-	eudiVerifierSvc *eudi.Service,
+	eudiVerifierSvc *openid4vp.Service,
 ) ExecutorRegistryInterface {
 	reg := newExecutorRegistry()
 	reg.RegisterExecutor(ExecutorNameBasicAuth, newBasicAuthExecutor(

@@ -29,19 +29,20 @@ import (
 	"github.com/thunder-id/thunderid/internal/authn/eudi"
 	"github.com/thunder-id/thunderid/internal/flow/common"
 	"github.com/thunder-id/thunderid/internal/flow/core"
+	"github.com/thunder-id/thunderid/internal/openid4vp"
 	"github.com/thunder-id/thunderid/tests/mocks/flow/coremock"
 )
 
 type fakeEUDIService struct {
-	initiate func(ctx context.Context) (*eudi.Initiation, error)
-	result   func(ctx context.Context, state string) (*eudi.RequestState, error)
+	initiate func(ctx context.Context) (*openid4vp.Initiation, error)
+	result   func(ctx context.Context, state string) (*openid4vp.RequestState, error)
 }
 
-func (f *fakeEUDIService) Initiate(ctx context.Context) (*eudi.Initiation, error) {
+func (f *fakeEUDIService) Initiate(ctx context.Context) (*openid4vp.Initiation, error) {
 	return f.initiate(ctx)
 }
 
-func (f *fakeEUDIService) Result(ctx context.Context, state string) (*eudi.RequestState, error) {
+func (f *fakeEUDIService) Result(ctx context.Context, state string) (*openid4vp.RequestState, error) {
 	return f.result(ctx, state)
 }
 
@@ -63,8 +64,8 @@ func eudiNodeContext(runtime map[string]string) *core.NodeContext {
 
 func TestEUDIExecutorInitiates(t *testing.T) {
 	svc := &fakeEUDIService{
-		initiate: func(_ context.Context) (*eudi.Initiation, error) {
-			return &eudi.Initiation{
+		initiate: func(_ context.Context) (*openid4vp.Initiation, error) {
+			return &openid4vp.Initiation{
 				State:      "state-123",
 				ClientID:   "x509_hash:abc",
 				RequestURI: "https://verifier.example/openid4vp/request?state=state-123",
@@ -84,7 +85,7 @@ func TestEUDIExecutorInitiates(t *testing.T) {
 
 func TestEUDIExecutorInitiateFailure(t *testing.T) {
 	svc := &fakeEUDIService{
-		initiate: func(_ context.Context) (*eudi.Initiation, error) {
+		initiate: func(_ context.Context) (*openid4vp.Initiation, error) {
 			return nil, errors.New("boom")
 		},
 	}
@@ -98,8 +99,13 @@ func TestEUDIExecutorInitiateFailure(t *testing.T) {
 
 func TestEUDIExecutorPollPending(t *testing.T) {
 	svc := &fakeEUDIService{
-		result: func(_ context.Context, state string) (*eudi.RequestState, error) {
-			return &eudi.RequestState{State: state, Status: eudi.StatusPending}, nil
+		result: func(_ context.Context, state string) (*openid4vp.RequestState, error) {
+			return &openid4vp.RequestState{
+				State:      state,
+				Status:     openid4vp.StatusPending,
+				ClientID:   "x509_hash:abc",
+				RequestURI: "https://verifier.example/openid4vp/request?state=" + state,
+			}, nil
 		},
 	}
 	exec := newTestEUDIExecutor(t, svc)
@@ -108,15 +114,19 @@ func TestEUDIExecutorPollPending(t *testing.T) {
 	require.NoError(t, err)
 	assert.Equal(t, common.ExecUserInputRequired, resp.Status)
 	assert.Equal(t, "state-123", resp.RuntimeData[eudiRuntimeKeyState])
+	// QR data must persist across polls so the wait view keeps rendering it.
+	assert.Equal(t, "x509_hash:abc", resp.AdditionalData[eudiDataClientID])
+	assert.Contains(t, resp.AdditionalData[eudiDataRequestURI], "state-123")
+	assert.Contains(t, resp.AdditionalData[eudiDataWalletURI], "openid4vp://")
 }
 
 func TestEUDIExecutorPollCompleted(t *testing.T) {
 	svc := &fakeEUDIService{
-		result: func(_ context.Context, state string) (*eudi.RequestState, error) {
-			return &eudi.RequestState{
+		result: func(_ context.Context, state string) (*openid4vp.RequestState, error) {
+			return &openid4vp.RequestState{
 				State:  state,
-				Status: eudi.StatusCompleted,
-				Result: &eudi.VerifiedPID{
+				Status: openid4vp.StatusCompleted,
+				Result: &openid4vp.VerifiedPresentation{
 					Subject: "sub-1",
 					Issuer:  "https://issuer.example",
 					VCT:     eudi.PIDVCTSDJWT,
@@ -139,8 +149,8 @@ func TestEUDIExecutorPollCompleted(t *testing.T) {
 
 func TestEUDIExecutorPollFailed(t *testing.T) {
 	svc := &fakeEUDIService{
-		result: func(_ context.Context, state string) (*eudi.RequestState, error) {
-			return &eudi.RequestState{State: state, Status: eudi.StatusFailed, FailureReason: "nonce mismatch"}, nil
+		result: func(_ context.Context, state string) (*openid4vp.RequestState, error) {
+			return &openid4vp.RequestState{State: state, Status: openid4vp.StatusFailed, FailureReason: "nonce mismatch"}, nil
 		},
 	}
 	exec := newTestEUDIExecutor(t, svc)
@@ -153,8 +163,8 @@ func TestEUDIExecutorPollFailed(t *testing.T) {
 
 func TestEUDIExecutorPollExpired(t *testing.T) {
 	svc := &fakeEUDIService{
-		result: func(_ context.Context, _ string) (*eudi.RequestState, error) {
-			return nil, eudi.ErrUnknownState
+		result: func(_ context.Context, _ string) (*openid4vp.RequestState, error) {
+			return nil, openid4vp.ErrUnknownState
 		},
 	}
 	exec := newTestEUDIExecutor(t, svc)

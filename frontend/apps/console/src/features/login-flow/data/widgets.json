@@ -305,6 +305,10 @@
               "type": "ID"
             },
             {
+              "key": "EUDI_WAIT_VIEW_ID",
+              "type": "ID"
+            },
+            {
               "key": "AUTH_ASSERT_EXECUTOR_ID",
               "type": "ID"
             }
@@ -360,8 +364,57 @@
                 },
                 "onSuccess": "{{AUTH_ASSERT_EXECUTOR_ID}}",
                 "onFailure": "",
-                "onIncomplete": ""
+                "onIncomplete": "{{EUDI_WAIT_VIEW_ID}}"
               }
+            }
+          },
+          {
+            "id": "{{EUDI_WAIT_VIEW_ID}}",
+            "type": "VIEW",
+            "size": {
+              "width": 350,
+              "height": 300
+            },
+            "position": {
+              "x": 820,
+              "y": 50
+            },
+            "data": {
+              "components": [
+                {
+                  "id": "{{ID}}",
+                  "category": "DISPLAY",
+                  "type": "TEXT",
+                  "variant": "HEADING_3",
+                  "label": "Scan with your EUDI Wallet"
+                },
+                {
+                  "id": "{{ID}}",
+                  "category": "DISPLAY",
+                  "type": "TEXT",
+                  "variant": "BODY_1",
+                  "label": "Open your EUDI Wallet and present your PID, then continue."
+                },
+                {
+                  "id": "{{ID}}",
+                  "category": "ACTION",
+                  "type": "BLOCK",
+                  "components": [
+                    {
+                      "id": "{{ID}}",
+                      "category": "ACTION",
+                      "type": "ACTION",
+                      "variant": "PRIMARY",
+                      "eventType": "SUBMIT",
+                      "label": "Refresh status",
+                      "action": {
+                        "type": "NEXT",
+                        "onSuccess": "{{EUDI_EXECUTION_STEP_ID}}"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           },
           {
